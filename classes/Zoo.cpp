@@ -35,7 +35,7 @@ void Zoo::addAnimal(Animal a, int id){
 void Zoo::deleteAnimal(int number){
     if(animals.size() <= number)
     {
-        cout << number << " is to much!" << endl;
+        cout << number << " is too much!" << endl;
         return;
     }
     this->animals.erase(this->animals.begin()+number);
