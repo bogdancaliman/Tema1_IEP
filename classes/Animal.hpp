@@ -20,7 +20,7 @@ class Animal {
         Animal(void); //default constructor
         Animal(const Animal&); //copy constructor
         Animal(string, string, int, int); //constructor with parameters
-        Animal operator=(Animal);
+        Animal &operator=(const Animal &); //assignment operator
 
         // getters
         string getAnimalType();

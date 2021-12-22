@@ -12,13 +12,22 @@ Animal::Animal(const Animal& a){
 }
 
 //assigment operator
-Animal Animal::operator=(Animal b) 
+Animal &Animal::operator=(const Animal &a) 
 {
-    animalType=b.getAnimalType();
-    eaterType=b.getEaterType();
-    age=b.getAge();
-    legsNumber=b.getLegsNumber();
-    id=b._id++;
+    if(this == &a) // item 11
+    {
+        std::cout << "The function is trying to do a self-assignment" << std::endl;
+        return *this;
+    }
+
+    std::cout << "This is assignment operator" << std::endl;
+    // item 12
+    animalType=a.animalType;
+    eaterType=a.eaterType;
+    age=a.age;
+    legsNumber=a.legsNumber;
+
+    // item 10
     return *this;
 }
 

@@ -1,0 +1,7 @@
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/build/CMakeFiles/rebuild_cache.dir
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/build/CMakeFiles/edit_cache.dir
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/build/CMakeFiles/BOGDAN.dir
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/build/classes/CMakeFiles/rebuild_cache.dir
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/build/classes/CMakeFiles/edit_cache.dir
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/build/classes/CMakeFiles/zoo.dir
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/build/classes/CMakeFiles/animal.dir

@@ -8,26 +8,31 @@ int main()
     Animal a4("Panda", "vegetarian ", 4, 4);
     
     a1.displayInfo();
-    cout << "Total of animals: " << a1.getNumberOfAnimals() << endl;
+    Animal a5;
+    a5 = a1;
+    a5.displayInfo();
+    a1=a1;
+    a1.displayInfo();
+    // cout << "Total of animals: " << a1.getNumberOfAnimals() << endl;
 
-    Animal a5 = a3;
-    cout << "Animal a3: " << a3.getAnimalType() << endl;
-    cout << "Animal a5: " << a5.getAnimalType() << endl;
-    cout << "ID: " << a5.getId() << endl;
+    // Animal a5 = a3;
+    // cout << "Animal a3: " << a3.getAnimalType() << endl;
+    // cout << "Animal a5: " << a5.getAnimalType() << endl;
+    // cout << "ID: " << a5.getId() << endl;
 
-    cout << endl << "######" << endl << endl;
+    // cout << endl << "######" << endl << endl;
 
-    Zoo z1(a1);
-    z1.addAnimal(a2, a2.getId());
-    z1.deleteAnimal(4);
-    z1.getListAllAnimals();
-    z1.getNumberOfAnimmals();
+    // Zoo z1(a1);
+    // z1.addAnimal(a2, a2.getId());
+    // z1.deleteAnimal(4);
+    // z1.getListAllAnimals();
+    // z1.getNumberOfAnimmals();
 
     //Item 6: Explicitly disallow the use of compiler generated functions you do not want
     //copy constructor is private
-    // Zoo z2=z1;
+    //  Zoo z2=z1;
     //assigment operator is private
-    Zoo z3;
+    // Zoo z3;
     //z3=z1;
 
     return 0;

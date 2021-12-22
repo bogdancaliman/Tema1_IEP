@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/BOGDAN.dir/src/main.cpp.o  -o BOGDAN  classes/libanimal.a classes/libzoo.a 

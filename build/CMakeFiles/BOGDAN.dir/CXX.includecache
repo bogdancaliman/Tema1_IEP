@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/classes/Animal.hpp
+iostream
+-
+vector
+-
+
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/classes/Zoo.hpp
+Animal.hpp
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/classes/Animal.hpp
+iostream
+-
+vector
+-
+
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/src/main.cpp
+../classes/Zoo.hpp
+/home/bogdan/Documents/IEP/Tema1/Tema1_IEP/classes/Zoo.hpp
+
